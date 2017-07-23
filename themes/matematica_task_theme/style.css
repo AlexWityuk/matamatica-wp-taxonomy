@@ -1,0 +1,95 @@
+/*
+Theme Name: Matematica Task Theme
+Theme URI: 
+Author: the WordPress team
+Author URI: 
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: matematica_theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body a{
+	text-decoration: none;
+}
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	border: 1px solid blue;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+    width: 100%;
+	text-align: center !important;
+	list-style: none;
+	margin: 0 -20px 0 0;
+	padding: 0;
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+}
+.menu-top-menu-container{
+	display: inline-block !important;
+    width: 150px;
+    height: 50px;
+    background: green;
+	text-align: center;
+}
+.menu-top-menu-container ul{
+	padding-left: 0px !important;
+    display: inline-block;
+}
+.menu{
+	list-style-type: none !important;
+}
+.menu-top-menu-container ul li{
+    margin-top: 13px;
+}
+.menu-top-menu-container ul li a{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.menu-head-menu-container{
+    display: inline-block;
+    padding-left: 140px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+.menu-head-menu li a{
+    color: black !important;
+    font-size: 36px !important;
+}
+.menu-head-menu{
+    background: yellow !important;
+}
